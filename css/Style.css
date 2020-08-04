@@ -1,10 +1,30 @@
 body{
     font-family: 'Inter', sans-serif;
 }
+.dark{
+    background-color: #232326;
+}
 .name{
     font-size: 28px;
+    color: #F3F2F0;
 }
 .h1{
     font-size: 74px;
     text-transform: uppercase;
+    color: #F3F2F0;
+}
+.photo{
+    margin-bottom: 120px;
+    width: 100%;
+}
+.wrapper{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.nav-link{
+    text-decoration: none;
+    color: #F3F2F0;
+    font-size: 14px;
 }
