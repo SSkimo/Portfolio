@@ -28,3 +28,6 @@ body{
     color: #F3F2F0;
     font-size: 14px;
 }
+.nav-link:hover{
+    color: #D40000;
+}
