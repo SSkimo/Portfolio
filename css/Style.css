@@ -3,6 +3,10 @@ body{
 }
 .dark{
     background-color: #232326;
+    color: #F3F2F0;
+}
+.dark.nav-link{
+    color: #F3F2F0;
 }
 .name{
     font-size: 28px;
@@ -17,11 +21,33 @@ body{
     margin-bottom: 120px;
     width: 100%;
 }
+header{
+    padding-top:  40px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav{
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    display: flex;
+}
 .wrapper{
     max-width: 1140px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
+}
+.nav-item{
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.nav-item.first-child{
+    padding-left: 0;
+}
+.nav-item.last-child{
+    padding-right: 0;
 }
 .nav-link{
     text-decoration: none;
