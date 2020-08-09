@@ -185,7 +185,8 @@ header{
 }
 .about{
     display: grid;
-    grid-template: 349px/repeat(4,1fr)
+    grid-template: 300px/repeat(4,1fr)
+    
 }
 .about-title{
     grid-column: 1/3;
